@@ -37,8 +37,13 @@
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>git status: checks what branch we are currently on</li>
-          <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git clone &lt;repo SSH value&gt;: clones the repo locally, creating a directory in the current folder.</li>
+          <li>code . : opens VScode with the explorer at the current directory.</li>
+          <li>git status: shows the current branch as well as any changes.</li>
+          <li>git add -A: stages the modifications to the current branch. -A adds all changes. There are also a multitude of other options with different effects.</li>
+          <li>git commit -m "add starter code": Commits staged changes to branch.</li>
+          <li>git pull origin main: Important for syncing local branch with GitHub. Pull brings in the modifications different from our local branch, origin points to the GitHub repo, and main indicates what branch we are pulling from.</li>
+          <li>git push origin &lt;branch name&gt;: Pushes changes to remote branch. From GitHub, this branch can now be pulled into the main branch.</li>
         </ul>  
       </section>
       <section class="card" id="javascript-section">
